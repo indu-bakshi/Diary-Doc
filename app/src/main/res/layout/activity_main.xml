@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFF176">
+
+
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:src="@drawable/logo_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_view"
+        android:textColor="@android:color/black"
+        android:text="Are You a...?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/doctor_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_button"
+        android:text="Doctor"
+        android:textSize="32sp"/>
+    <Button
+        android:id="@+id/patient_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/rounded_button"
+        android:text="Patient"
+        android:textSize="32sp"/>
+
+
+
+
+</RelativeLayout>
